@@ -74,12 +74,6 @@ button:disabled {
   opacity: 0.6;
 }
 
-button.play {
-  background: #1f4e79;
-  border-color: #1f4e79;
-  color: #fff;
-}
-
 .dot {
   display: inline-block;
   width: 10px;

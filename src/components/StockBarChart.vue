@@ -34,7 +34,7 @@ function barText(row) {
   const count = format(row.households)
   if (row.status === 'new') return `${count}  新進`
   if (row.delta === null) return count
-  return `${count}  ${signed(row.delta)}`
+  return `${count}（${signed(row.delta)}）`
 }
 
 function showTip(event, row) {
